@@ -19,7 +19,7 @@ An AI-powered tool that recommends the most relevant SHL assessments for your jo
 
    ```bash
    git clone https://github.com/sawood164/SHL_Assignment-main.git
-   cd SHL_Assignment-main
+   
    ```
 
 2. **Install dependencies:**
