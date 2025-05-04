@@ -85,7 +85,7 @@ An AI-powered tool that recommends the most relevant SHL assessments for your jo
 ## 👤 Author
 
 Md Sawood Alam  
-For queries: [md.sawood.alam@gmail.com](mailto:md.sawood.alam@gmail.com)
+For queries:(mailto: sawoodalam19@gmail.com)
 
 ---
 
