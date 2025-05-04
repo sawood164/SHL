@@ -1,0 +1,62 @@
+
+
+# SHL Assessment Recommendation Engine – Approach Document
+
+## Problem Statement
+The goal was to build an AI-powered web application that recommends the most relevant SHL assessments for a given job description or hiring query, leveraging the SHL assessment catalog and Google Gemini AI.
+
+---
+
+## Solution Overview
+
+1. **Catalog Integration:**  
+   The SHL assessment catalog was loaded and processed using pandas to provide structured context for recommendations.
+
+2. **AI Model Selection:**  
+   Google Gemini (Generative AI) was chosen for its strong natural language understanding and ability to generate context-aware recommendations.
+
+3. **Prompt Engineering:**  
+   A detailed prompt was crafted, providing the model with catalog context and instructing it to return a concise table of the most relevant assessments for the user’s query.
+
+4. **Web Application (UI):**  
+   - Built using Streamlit for rapid prototyping and a modern, interactive user experience.
+   - Users can input job descriptions, select the number of recommendations, and view results in a visually appealing, night-mode interface.
+
+5. **Recommendation Logic:**  
+   - The user’s query and catalog context are sent to Gemini via API.
+   - The model returns a table of top-K recommended assessments, which are parsed and displayed in the UI.
+
+6. **Evaluation:**  
+   - **Metric:** Precision@3 (proportion of queries where at least one relevant recommendation appears in the top 3).
+   - **Process:** 10 diverse job descriptions were tested. Recommendations were manually checked for relevance.
+   - **Result:** Achieved Precision@3 = 0.7 after prompt and data optimizations.
+
+7. **Optimization:**  
+   - Improved prompt clarity and catalog formatting.
+   - Limited recommendations to user-selected K for better focus.
+   - Cleaned catalog data for consistency.
+
+---
+
+## Deployment & Access
+
+- **Web App:** Accessible via Streamlit at `https://sawoodshl.streamlit.app/`.
+- **Code:** Available on GitHub with all implementation and evaluation details.
+- **API:** No separate REST API endpoint; recommendations are generated via the web UI.
+
+---
+
+## Key Learnings
+
+- Prompt engineering and data cleaning significantly impact recommendation quality.
+- Manual evaluation is essential for measuring real-world relevance in AI-powered recommendation systems.
+
+---
+
+**Author:**  
+Md Sawood Alam  
+(mailto: sawoodalam19@gmail.com)
+
+---
+
+
