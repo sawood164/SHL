@@ -18,7 +18,7 @@ An AI-powered tool that recommends the most relevant SHL assessments for your jo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/SHL_Assignment-main.git
+   git clone https://github.com/sawood164/SHL_Assignment-main.git
    cd SHL_Assignment-main
    ```
 
