@@ -34,10 +34,6 @@ An AI-powered tool that recommends the most relevant SHL assessments for your jo
    streamlit run app.py
    ```
 
-4. **Access the UI:**
-   - The app will open in your browser at `http://localhost:8501`
-   - (If deployed, add your Streamlit Cloud link here)
-
 ---
 
 ## 🌐 API & UI Access
@@ -45,7 +41,7 @@ An AI-powered tool that recommends the most relevant SHL assessments for your jo
 - **Gemini API:**  
   The app uses Google Gemini API for generating recommendations. The integration is functional and tested.
 - **UI:**  
-  Accessible via Streamlit at `http://localhost:8501` after running the app.
+  Accessible via Streamlit at `https://sawoodshl.streamlit.app/` after running the app.
 
 ---
 
